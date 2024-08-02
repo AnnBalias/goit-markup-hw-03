@@ -1,0 +1,152 @@
+body{
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #434455;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* #region header */
+
+.logo, .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.header-accent {
+    color: #2e2f42;
+}
+
+.nav-link {
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #404bbf;
+}
+
+.header-addr {
+    font-style: normal;
+}        
+
+.addr-link {
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.addr-link:hover, .addr-link:focus {
+    color: #404bbf;
+}
+
+/* #endregion header */
+
+/* #region Hero */
+
+.hero {
+    background-color: #2e2f42;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+}   
+
+.hero-button {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-button:hover, .hero-button:focus {
+    background-color: #404bbf;
+}
+
+/* #endregion Hero */
+
+/* #region Values */
+
+.values-title, .team-title, .portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.values-subtitle,
+.team-subtitle,
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.values-text,
+.team-text,
+.portfolio-text {
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+/* #endregion Values */
+
+/* #region Values */
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-item{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+/* #endregion Values */
+
+/* #region footer */
+
+.footer-section {
+    background-color: #2e2f42;
+    color: #f4f4fd;
+}
+
+.footer-accent{
+    color: #f4f4fd;
+}
+
+.footer-text {
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+/* #endregion footer */
