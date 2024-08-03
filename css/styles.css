@@ -66,7 +66,7 @@ margin: 0 auto;
 .nav-list, .addr-list {
     display: flex;
     gap: 40px;
-    padding-left: 0;
+    padding: 24px 0;
 }
 
 .header-addr {
@@ -78,7 +78,6 @@ margin: 0 auto;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding: 24px 0;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -94,6 +93,7 @@ margin: 0 auto;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0;
 }
 
 .addr-link:hover, .addr-link:focus {
@@ -119,6 +119,7 @@ margin: 0 auto;
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }   
 
 .hero-button {
@@ -307,6 +308,10 @@ margin: 0 auto;
     letter-spacing: 0.02em;
     display: inline-block;
     margin-bottom: 16px;
+}
+
+.footer-text {
+    max-width: 264px;
 }
 
 /* #endregion footer */
