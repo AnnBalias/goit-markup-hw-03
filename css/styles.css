@@ -103,7 +103,7 @@ margin: 0 auto;
 .hero {
     background-color: #2e2f42;
     color: #ffffff;
-    padding: 188px;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -170,7 +170,7 @@ margin: 0 auto;
 }
 
 .values-list:first-child {
-    flex-basis: calc((100% - 72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .values-subtitle,
@@ -275,6 +275,7 @@ margin: 0 auto;
 .portfolio-text-box {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-subtitle {
